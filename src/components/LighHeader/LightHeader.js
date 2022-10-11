@@ -29,7 +29,7 @@ const LightHeader = (props) => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/channels">Channels</Link></li>
             <li><Link to="/brands">Brands</Link></li>
-            <li><Link to="/influencers">Influncers</Link></li>
+            <li><Link to="/influencers">Influencers</Link></li>
             <li><Link to="/clients">Clients</Link></li>
             <li><Link to="/about">About</Link></li>
             {/* <li><a href="">Get in Touch</a></li> */}
@@ -48,7 +48,7 @@ const LightHeader = (props) => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/channels">Channels</Link></li>
                 <li><Link to="/brands">Brands</Link></li>
-                <li><Link to="/influencers">Influncers</Link></li>
+                <li><Link to="/influencers">Influencers</Link></li>
                 <li><Link to="/clients">Clients</Link></li>
                 <li><Link to="/about">About</Link></li>
                 {/* <li><Link to="/contact">Get in Touch</Link></li> */}
