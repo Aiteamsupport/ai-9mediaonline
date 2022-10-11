@@ -78,7 +78,7 @@ function Home() {
             <div data-aos="fade-up"
                 data-aos-duration="500" id='arr3'>
                 <div data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="300" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
+                    data-aos-duration="1000" data-aos-delay="0" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
                     <img id='arr3-2-2' src={image2} alt="" />
@@ -197,10 +197,7 @@ function Home() {
                         data-aos-duration="2000" data-aos-delay="500" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
                         identifiable information into unique identifiers.
                         A marketer cannot reverse engineer our unique IDs to personally
-                        identifiable information (PII). This can significantly reduce the
-                        amount of data subject to regulations, such as (GDPR) in Europe and
-                        (CCPA) in the US, and increase opportunities for channels and brands
-                        to share data in a privacy-compliant manner.</div>
+                        identifiable information (PII).</div>
                 </div>
             </div>
 
@@ -228,7 +225,7 @@ function Home() {
                     </div>
                     <div id='arr6-1-2'>
                         <div className='heading' data-aos="fade-up"
-                            data-aos-duration="2000" data-aos-delay="400">A Single point of Access</div>
+                            data-aos-duration="1000" data-aos-delay="400">A Single point of Access</div>
                         <div className='subHeading' data-aos="fade-up"
                             data-aos-duration="1000" data-aos-delay="500">Reach and measure your audience across channels with
                             precision, scale, and transparency in a privacy-friendly way.
