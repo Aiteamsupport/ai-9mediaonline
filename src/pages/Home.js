@@ -58,12 +58,12 @@ function Home() {
                     </div>
                 </div>
                 <img data-aos="zoom-in"
-                    data-aos-duration="1000" data-aos-delay="400" src={image1} alt='' id="arr2-3" />
+                    data-aos-duration="1000" data-aos-delay="100" src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="700" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
+                        data-aos-duration="1500" data-aos-delay="300" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="900" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
+                        data-aos-duration="1500" data-aos-delay="500" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
                         has allowed us to harness opportunities and reimagine how
                         audience targeting, Attribution can be brought forward in a
                         privacy-focussed manner.</div>
@@ -88,12 +88,12 @@ function Home() {
             <div id="arr4">
                 <div id='arr4-1'>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="300" id='arr4-1-1'>CHANNELS</div>
+                        data-aos-duration="1500" data-aos-delay="100" id='arr4-1-1'>CHANNELS</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="500" id='arr4-1-2'>Safeguard your audience and your
+                        data-aos-duration="1500" data-aos-delay="300" id='arr4-1-2'>Safeguard your audience and your
                         revenue.</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="600" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
+                        data-aos-duration="1500" data-aos-delay="500" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
                 </div>
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
@@ -159,7 +159,7 @@ function Home() {
                     </div>
                     <div id='arr5-1-2'>
                         <div data-aos="fade-up"
-                            data-aos-duration="2000" data-aos-delay="500" className='div-flex' id='arr5-1-2-1'>
+                            data-aos-duration="1000" data-aos-delay="500" className='div-flex' id='arr5-1-2-1'>
                             <img className='img-block' src={lock} alt='' /><span className='head-small'> Build privacy-safe audience segments</span>
                         </div>
                         <div data-aos="fade-up"
@@ -266,7 +266,7 @@ function Home() {
                         <img data-aos="fade-up"
                             data-aos-duration="500" data-aos-delay="300"  id='t2016' className='relative' src={t2016} alt=''  draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="500" data-aos-delay="1500"  id='t2018' className='relative' src={t2018} alt=''  draggable='false' />
+                            data-aos-duration="500" data-aos-delay="500"  id='t2018' className='relative' src={t2018} alt=''  draggable='false' />
                         <img data-aos="fade-up"
                             data-aos-duration="500" id='t2020' className='relative' data-aos-delay="2500" src={t2020} alt=''  draggable='false' />
                         <img data-aos="fade-up"
