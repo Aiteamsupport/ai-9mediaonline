@@ -16,9 +16,10 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 function Channels() {
-
+    document.title="Channels | 9mediaOnline";
     return (
         <>
+            
             <Header text1="Future-Safe Ad Solution" text2=" for Channels" subtext1="" buttonText="GET STARTED" />
 
             <div id='c-arr1'>
@@ -136,7 +137,7 @@ function Channels() {
 
             <div data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="100" id='last-head'>Take a look at your clients</div>
-            <button  data-aos="fade-up"
+            <button onClick={()=>window.location.href='/contact'} data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="400" id='last-btn'>CUSTOMERS</button>
             <Footer />
         </>

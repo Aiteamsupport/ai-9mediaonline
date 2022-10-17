@@ -99,7 +99,7 @@
    .contact-container{
       margin:auto;
       position: relative;
-      bottom: 150px;
+      bottom: 250px;
    }
    .contact-body-img{
       display: none;
@@ -109,5 +109,8 @@
    }
    #arr5-2-1 {
       margin-bottom: 16px;
+  }
+  .contat-form-container input {
+   width: 90%;
   }
  }

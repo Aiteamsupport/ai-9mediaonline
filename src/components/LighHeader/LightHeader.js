@@ -61,7 +61,7 @@ const LightHeader = (props) => {
         <div className='head-head'>{props.text0}</div>
         <div className="headText-light">{props.text1} <span>{props.text2}</span></div>
         <div className="subText-light">{props.subtext1}</div>
-        {props.buttonText!=""?(<button id="get-started-light"><span>{props.buttonText}</span></button>):(<div></div>)}
+        {/* {props.buttonText!=""?(<button id="get-started-light"><span>{props.buttonText}</span></button>):(<div></div>)} */}
         
 
       </div>

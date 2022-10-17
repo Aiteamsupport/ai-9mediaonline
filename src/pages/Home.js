@@ -67,6 +67,7 @@ function Home() {
                         has allowed us to harness opportunities and reimagine how
                         audience targeting, Attribution can be brought forward in a
                         privacy-focussed manner.</div>
+                        
                 </div>
             </div>
 
@@ -132,7 +133,7 @@ function Home() {
                 </div>
                 
             </div>
-            <button id='book-a-free'>Book a free Consultation</button>
+            <button onClick={()=>window.location.href='/contact'} id='book-a-free'>Book a free Consultation</button>
 
 
 
@@ -166,6 +167,7 @@ function Home() {
                             data-aos-duration="1000" data-aos-delay="400" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
                             measurement. We help build ideal customers cohorts while complying
                             with privacy regulations.
+                            
                         </div>
                         {/* <div id='arr5-1-2-3'></div> */}
                     </div>
@@ -233,6 +235,7 @@ function Home() {
                             incremental impressions across TV Channels— all within a single
                             dashboard.</div>
                     </div>
+                    
                     <div id='arr6-2'>
                         <div id='arr6-2-1'>
                             <img data-aos="fade-up"
@@ -244,7 +247,7 @@ function Home() {
                             <div id='arr6-2-2-2' data-aos="fade-up"
                                 data-aos-duration="2000" data-aos-delay="500">Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
                             </div>
-                            <button id='arr6-2-2-3' data-aos="fade-up"
+                            <button onClick={()=>window.location.href='/contact'} id='arr6-2-2-3' data-aos="fade-up"
                                 data-aos-duration="3000" data-aos-delay="600">LEARN MORE</button>
                         </div>
                     </div>
@@ -291,7 +294,7 @@ function Home() {
                     </div>
                     <div id='arr8-2-2'>
                         <div id='arr8-2-2-1'>We are prepared for a world without third-party cookies, are you?</div>
-                        <button id='arr8-2-2-2'>Learn More</button>
+                        <button onClick={()=>window.location.href='/contact'} id='arr8-2-2-2'>Learn More</button>
                         <div id='arr8-2-2-3'>9MO is developing new tools, features and strategy partnerships to drive scale and performance for effective privacy-compliant advertising solutions.
                         </div>
                     </div>

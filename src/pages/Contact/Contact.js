@@ -19,7 +19,7 @@ const Contact = () => {
       });
       e.target.reset();
   };
-
+  document.title="Contact | 9mediaOnline";
 
   return (
     <div>

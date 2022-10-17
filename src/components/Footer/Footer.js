@@ -50,8 +50,8 @@ const Footer = () => {
          <div className='footer-bottom'>
                   <ul>
                      <li style={{color:"white"}}>© 2022 9 Media Online</li>
-                     <li><Link to="/seller">Privacy Policy</Link></li>
-                     <li>Terms and conditions</li>
+                     <li><a href="/privacy-policy">Privacy Policy</a></li>
+                     <li><a href="/terms-and-conditons">Terms and conditions</a></li>
                      <li>Do Not Sell My Personal Information</li>
                      <div style={{display:"flex"}}>
                      <li id='twit'><img src={twitter}/></li>
