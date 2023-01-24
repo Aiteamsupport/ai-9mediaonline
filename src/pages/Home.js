@@ -7,7 +7,6 @@ import image2 from '../assets/img/home/Group76.png'
 import image3 from '../assets/img/home/1.png'
 import image4 from '../assets/img/home/2.png'
 import image5 from '../assets/img/home/3.png'
-import SineWaves from 'sine-waves';
 import image6 from '../assets/img/home/4.png'
 import image7 from '../assets/img/home/5.png'
 import image8 from '../assets/img/home/6.png'
@@ -48,7 +47,7 @@ function Home() {
 
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV advertising made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
-                data-aos-duration="1000" data-aos-delay="300" id='arr2'>
+                data-aos-duration="1000" data-aos-delay="100" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
                 <div id="container1">
                     {/* <canvas id="waves" style={{height:"400px !important"}}></canvas> */}
@@ -61,9 +60,9 @@ function Home() {
                     data-aos-duration="1000" data-aos-delay="100" src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="300" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?</div>
+                        data-aos-duration="1500" data-aos-delay="200" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="500" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
+                        data-aos-duration="1500" data-aos-delay="300" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
                         has allowed us to harness opportunities and reimagine how
                         audience targeting, Attribution can be brought forward in a
                         privacy-focussed manner.</div>
@@ -145,14 +144,14 @@ function Home() {
                         <div className='div-flex' id='arr5-1-1-1'>
 
                             <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="300" className='img-block' src={tv} alt='' />
+                                data-aos-duration="1000" data-aos-delay="100" className='img-block' src={tv} alt='' />
 
                             <span data-aos="fade-up"
-                                data-aos-duration="2000" data-aos-delay="500" className='head-small'> Run smart tv campaigns in a privacy-safe
+                                data-aos-duration="2000" data-aos-delay="200" className='head-small'> Run smart tv campaigns in a privacy-safe
                                 environment.</span>
                         </div>
                         <div data-aos="fade-up"
-                            data-aos-duration="3000" data-aos-delay="500" id='arr5-1-1-2' className='sub-text'>
+                            data-aos-duration="3000" data-aos-delay="200" id='arr5-1-1-2' className='sub-text'>
                             Control how much data is exposed to other parties and ensure your
                             data is kept within an isolated environment.
                         </div>
@@ -160,11 +159,11 @@ function Home() {
                     </div>
                     <div id='arr5-1-2'>
                         <div data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="500" className='div-flex' id='arr5-1-2-1'>
+                            data-aos-duration="1000" data-aos-delay="200" className='div-flex' id='arr5-1-2-1'>
                             <img className='img-block' src={lock} alt='' /><span className='head-small'> Build privacy-safe audience segments</span>
                         </div>
                         <div data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="400" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
+                            data-aos-duration="1000" data-aos-delay="100" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
                             measurement. We help build ideal customers cohorts while complying
                             with privacy regulations.
                             
@@ -174,8 +173,8 @@ function Home() {
                     <div id='arr5-1-3'>
                         <div className='div-flex' id='arr5-1-3-1'>
                             <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="400" className='img-block' src={cash} alt='' /><span data-aos="fade-up"
-                                    data-aos-duration="1000" data-aos-delay="400" className='head-small'> Maximise Ad Revenue and fill rate</span>
+                                data-aos-duration="1000" data-aos-delay="200" className='img-block' src={cash} alt='' /><span data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="200" className='head-small'> Maximise Ad Revenue and fill rate</span>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1000" data-aos-delay="400" id='arr5-1-3-2' className='sub-text'>Maximise revenue using our hybrid auction system that allows for
@@ -188,15 +187,15 @@ function Home() {
                     <div id='arr5-2-1'>
                         <div id='arr5-2-1-1'>
                             <span data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="400">Transfer information without the worry of data leak.</span>
+                                data-aos-duration="1000" data-aos-delay="200">Transfer information without the worry of data leak.</span>
                         </div>
                         <div className='div-flex' id='arr5-2-1-2'>
                             <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="400" className='img-block' src={hamburger} alt='' />
+                                data-aos-duration="1000" data-aos-delay="100" className='img-block' src={hamburger} alt='' />
                         </div>
                     </div>
                     <div data-aos="fade-up"
-                        data-aos-duration="2000" data-aos-delay="500" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
+                        data-aos-duration="2000" data-aos-delay="300" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
                         identifiable information into unique identifiers.
                         A marketer cannot reverse engineer our unique IDs to personally
                         identifiable information (PII).</div>
@@ -212,13 +211,13 @@ function Home() {
                     <div id='arr6-1-1'>
                         <div id='arr6-1-1-2'>
                             <div className='heading' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="500">High Precision Targeting</div>
+                                data-aos-duration="1000" data-aos-delay="100">High Precision Targeting</div>
                             <div className='subHeading' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="500">Match your own audience data across streaming channels in a privacy-safe,
+                                data-aos-duration="1000" data-aos-delay="300">Match your own audience data across streaming channels in a privacy-safe,
                                 secure environment with unprecedented audience insights</div>
                         </div>
                         <div id='arr6-1-1-3'>
-                            <div className='heading' data-aos="fade-up"
+                            <div className='heading' id='heading-margin' data-aos="fade-up"
                                 data-aos-duration="1000" data-aos-delay="600">Cross Channel Cookie-less Conversions</div>
                             <div className='subHeading' data-aos="fade-up"
                                 data-aos-duration="1000" data-aos-delay="600">9MO tracks post-click conversions on an advertiser’s site by appending

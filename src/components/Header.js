@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './header.css';
-import logo from '../assets/img/home/Rectangle62.png';
-import back from '../assets/img/home/lines.png'
+import logo from '../assets/img/home/Rectangle62.svg';
+import back from '../assets/img/home/lines2.png'
 import menu from '../assets/img/home/menu.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
