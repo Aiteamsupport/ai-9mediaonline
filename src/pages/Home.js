@@ -294,7 +294,7 @@ function Home() {
                     <div id='arr8-2-2'>
                         <div id='arr8-2-2-1'>We are prepared for a world without third-party cookies, are you?</div>
                         <button onClick={()=>window.location.href='/contact'} id='arr8-2-2-2'>Learn More</button>
-                        <div id='arr8-2-2-3'>9MO is developing new tools, features and strategy partnerships to drive scale and performance for effective privacy-compliant advertising solutions.
+                        <div id='arr8-2-2-3'>9MO is developing new tools, features and strategy partnerships to drive scale and performance for effective privacy-compliant advertising solutions. Testing
                         </div>
                     </div>
                 </div>
