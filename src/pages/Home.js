@@ -60,7 +60,7 @@ function Home() {
                     data-aos-duration="1000" data-aos-delay="100" src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="200" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES? Test</div>
+                        data-aos-duration="1500" data-aos-delay="200" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?</div>
                     <div data-aos="fade-up"
                         data-aos-duration="1500" data-aos-delay="300" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
                         has allowed us to harness opportunities and reimagine how
