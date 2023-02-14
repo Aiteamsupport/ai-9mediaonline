@@ -12,6 +12,8 @@ import Seller from './components/Seller/Seller';
 import Dummy from './components/Seller/seller.json'
 import Privacy from './pages/Privacy/Privacy';
 import Term from './pages/Privacy/Term';
+import Ads from './components/Ads/Ads';
+import AppAds from './components/Ads/App-ads';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path='/sellers.json' element={<Seller/>}></Route>
           <Route path='/privacy-policy' element={<Privacy/>}></Route>
           <Route path='/terms-and-conditons' element={<Term/>}></Route>
+          <Route path='/ads.txt' element={<Ads/>}></Route>
+          <Route path='/app-ads.txt' element={<AppAds/>}></Route>
           {/* <Route path='/dummy.json' element={<Dummy/>}></Route>  */}
           
 
